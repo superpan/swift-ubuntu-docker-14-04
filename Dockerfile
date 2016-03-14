@@ -33,6 +33,7 @@ RUN apt-get install -y clang
 RUN apt-get install -y curl
 RUN apt-get install -y libglib2.0-dev
 RUN apt-get install -y libblocksruntime-dev
+RUN apt-get install -y libicu52
 RUN apt-get install -y vim
 RUN apt-get install -y wget
 RUN apt-get install -y telnet
